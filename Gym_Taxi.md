@@ -170,7 +170,7 @@ if __name__ == "__main__":
 
 ​	设置模型参数$\gamma=0.9, \alpha=0.1, \epsilon=0.05$，迭代4000次（episode=4000），得到训练过程中的return如下图所示：
 
-![return of Taxi by Saras](return of Taxi by Saras.svg)
+![return of Taxi by Saras]([turern of Taxi by Saras.svg](https://github.com/Huex123/Reinforcement-Learning-project1/blob/main/return%20of%20Taxi%20by%20Saras.svg))
 
 ​	由图可以看出，agent已经收敛。从`Taxi_Sarsa.mp4`视频中也可看出，每个episode中，Taxi都可以稳定将乘客送到目的地。
 
@@ -222,7 +222,7 @@ def play(env, agent, train=False):
 
 ​	训练得到return如下图所示：
 
-![return of Taxi by Saras with Reward shaping](return of Taxi by Saras with Reward shaping.svg)
+![return of Taxi by Saras with Reward shaping]([return of Taxi by Saras with Reward shaping.svg](https://github.com/Huex123/Reinforcement-Learning-project1/blob/main/return%20of%20Taxi%20by%20Saras%20with%20Reward%20shaping.svg))
 
 对比无Reward shaping的图像可以看到，训练前期，其收敛速度加快。
 
@@ -321,7 +321,7 @@ def play(env, agent, train=False):
 
 ​	设置模型参数$\gamma=0.9, \alpha=0.1, \epsilon=0.05$，迭代4000次（episode=4000），在不使用Reward Shaping时，得到训练过程中的return如下图所示：
 
-![return of Taxi by Q-Learning](return of Taxi by Q-Learning.svg)
+![return of Taxi by Q-Learning]([return of Taxi by Q-Learning.svg](https://github.com/Huex123/Reinforcement-Learning-project1/blob/main/return%20of%20Taxi%20by%20Q-Learning.svg))
 
 ​	由图可以看出，agent已经收敛。从`Taxi_QLearning.mp4`视频中也可看出，每个episode中，Taxi都可以稳定将乘客送到目的地。
 
@@ -329,6 +329,6 @@ def play(env, agent, train=False):
 
 ​	使用Reward Shaping后，训练过程得到的return如下图所示：
 
-![return of Taxi by Q-Learning with Reward shaping](return of Taxi by Q-Learning with Reward shaping.svg)
+![return of Taxi by Q-Learning with Reward shaping](https://github.com/Huex123/Reinforcement-Learning-project1/blob/main/return%20of%20Taxi%20by%20Q-Learning%20with%20Reward%20shaping.svg)
 
 对比前面无Reward shaping的图像可以看到，训练前期，其收敛速度稍有加快。
