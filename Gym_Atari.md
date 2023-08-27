@@ -333,6 +333,6 @@ if __name__ == "__main__":
 
 ​	设置episode=3000，训练过程的return如下图所示：
 
-![return of Pong by DQN](return of Pong by DQN.svg)
+![return of Pong by DQN](https://github.com/Huex123/Reinforcement-Learning-project1/blob/main/return%20of%20Pong%20by%20DQN.svg)
 
 观察到模型并未收敛，可能代码编写还有问题，或者训练次数不够。
